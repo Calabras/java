@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="118.0" prefWidth="295.0" style="-fx-border-color: gray;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.laboratory_4_version2.CPUController">
+    <children>
+        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#start" prefHeight="26.0" prefWidth="272.0" text="Выполнить все инструкции" />
+        <Button layoutX="10.0" layoutY="42.0" mnemonicParsing="false" onAction="#run2" prefHeight="26.0" prefWidth="274.0" text="Выполнить очередную инструкцию" />
+        <Button layoutX="9.0" layoutY="72.0" mnemonicParsing="false" onAction="#reset" prefHeight="26.0" prefWidth="274.0" text="Сбросить выполнение программы" />
+    </children>
+</Pane>

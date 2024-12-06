@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="150.0" prefWidth="230.0" style="-fx-border-color: gray;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.laboratory_4_version2.MemoryController">
+    <children>
+        <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="20.0" prefWidth="210.0" text="Состояние памяти">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <ScrollPane layoutX="5" layoutY="34.0" prefHeight="106.0" prefWidth="219.0">
+            <content>
+                <VBox fx:id="memory" maxHeight="100.0" maxWidth="220.0" />
+            </content></ScrollPane>
+    </children>
+</Pane>
